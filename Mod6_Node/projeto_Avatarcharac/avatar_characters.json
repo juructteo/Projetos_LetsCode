@@ -1,0 +1,47 @@
+{
+    "last_id": 6,
+    "data": [
+        {
+            "id": 1,
+            "nome": "Aang",
+            "naçao": "Nômades do Ar",
+            "dominacao": "ar",
+            "imagem": "https://i.pinimg.com/736x/ff/7e/18/ff7e1864005d9b832c96a930e46f5005.jpg"
+        },
+        {
+            "id": 2,
+            "nome": "Toph",
+            "naçao": "Reino da Terra",
+            "dominacao": "terra",
+            "imagem": "https://i.pinimg.com/originals/62/d8/0c/62d80cc76a78522cb256818498a2f744.jpg"
+        },
+        {
+            "id": 3,
+            "nome": "Katara",
+            "naçao": "Tribo da Água do Sul",
+            "dominacao": "agua",
+            "imagem": "https://pbs.twimg.com/media/ENuLg5rXUAAZRDo.jpg"
+        },
+        {
+            "id": 4,
+            "nome": "Sokka",
+            "naçao": "Tribo da Água do Sul",
+            "dominacao": "não dobrador",
+            "imagem": "https://img.quizur.com/f/img5ec9c646cf6897.62047991.jpg?lastEdited=1590281801"
+        },
+        {
+            "id": 5,
+            "nome": "Zuko",
+            "naçao": "Nação do Fogo",
+            "dominacao": "fogo",
+            "imagem": "https://i.pinimg.com/originals/a8/ee/f7/a8eef709350d3018feed49b658bdbb1d.png"
+        },
+        {
+            "id": 6,
+            "nome": "Azula",
+            "naçao": "Nação do Fogo",
+            "dominacao": "fogo",
+            "imagem": "https://istoe.com.br/wp-content/uploads/sites/14/2021/12/avatar-azula-418x235.jpg"
+        }
+    ]
+}

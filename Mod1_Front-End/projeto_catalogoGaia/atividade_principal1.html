@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Gaia Sustentável</title>
+    <link rel="stylesheet" href="configuraçoes.css">
+    <style>
+        html{
+     scroll-behavior: smooth;
+ }
+.titulo1{color: rgb(91, 208, 216); 
+     text-align: center;
+    font-family: Arial; 
+    
+
+}
+.titulo2{
+    color: rgb(91, 208, 216); 
+      font-family: Arial; 
+   
+
+}
+
+span{
+    color: white;
+    font-family: Arial;
+    font-size:large;
+    margin-bottom: 5%;
+}
+
+body{
+    background-color: rgb(191, 116, 214);
+   
+}
+
+p, th,ul,li{
+    color: white;
+    font-family: Arial;
+    font-size:large;
+    
+    
+}
+
+h3{
+    color:rgb(91, 208, 216) ;
+    font-family: Arial;
+    font-size:large;
+    
+    
+}
+
+.footer{ 
+     color: white;
+    font-family: Arial;
+    font-size:large;
+    text-align: center;
+}
+
+
+aside{  color: white;
+    font-family: Arial;
+    font-size:large;
+    
+    
+}
+
+.border{
+    border: 5px solid rgb(91, 208, 216);
+    padding-left: 10px;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(59, 9, 59);
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(32, 169, 179);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(88, 7, 95, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+    </style>
+    
+</head>
+<body>
+
+     <header>
+     <h1 id="topo" class="titulo1"> Produtos ecológicos</h1> 
+     </header>
+    <nav>
+     <div class="navbar">
+        <a href="#home">Sobre Gaia</a>
+        <a href="#news">Novidades</a>
+        <div class="dropdown">
+            <button class="dropbtn">Produtos 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#absorventes">Absorventes</a>
+              <a href="#fraldas">Fraldas</a>
+              <a href="#ecopads">Ecopads</a>
+              <a href="#lipbalm">LipBalm</a>
+            </div>
+        
+        
+        </div> 
+      </div>
+    </nav>
+    <main>
+        <article>
+            <section>
+        <div id="home"><h2 class="titulo2">Gaia</h2></div>
+        <hr>
+        <p>
+            O lixo é um dos maiores poluidores, isso é fato. Muito dos produtos são feitos para utilizar uma vez e serem descartados, como giletes, absorventes, cotonotes, produtos de higiene pessoal em geral, e normalmente são os mais encontrados em lixos e mares. Porém nós podemos mudar isso no nosso dia dia, adquirindo produtos ecologicamente corretos. Um exemplo de loja que fornece mercadorias alternativas é a Gaia.
+        </p>
+        <p>Gaia foi criada pela Camila Bonani, moradora de Rio Claro interior de SP, de 20 anos de idade. Ela é uma das pessoas que se preocupa e quer mudar o planeta, ela mesma com a sua mãe costuram os produtos que vendem, ou seja, tem fabricação caseira e é sustentavel. A Gaia comercializa suas peças pelo instagram <a href="https://www.instagram.com/gaia.sustentavel/" target="_blank"style="color:rgb(91, 208, 216);">@gaia.sustentavel</a> e entrega para todo Brasil em embalagens sustentaveis também. 
+        </p>
+    </section>
+        <section>
+        <div ><h2 class="titulo2">Produtos</h2></div>
+        <hr>
+                           
+            <aside style="float:right; text-align: center;width: 50%;">
+                    <h2 class="titulo2" style="text-align: center;">Pesquisa de satisfação</h2>
+                    <form action="./processa-form-rh.php" method="post">
+        
+                 <div >
+                <label for="nome">Nome:</label>
+                <input id="nome" name="nome" placeholder="Digite o nome completo" type="text">
+                </div>
+ 
+       <div >
+         <label for="email">E-mail:</label>
+         <input id="email" name="email" type="text">
+       </div>
+       <br>
+       <div > 
+           Você já possui algum produto Gaia?
+        <input id="Sim" name="aceite" type="radio" required>
+        <label for="Sim">Sim</label>
+        <input id="nao" name="aceite" type="radio" required>
+        <label for="nao">Não</label>
+      </div>
+      <br>
+        <div>
+           Se sim, qual(is)?
+           <input id="r1" name="produto-gaia1" value="absorventes" type="radio">
+           <label for="r1">Absorvente</label>
+           <input id="r2" name="produto-gaia2" value="fralda" type="radio">
+           <label for="r2">Fralda</label>
+           <input id="r3" name="produto-gaia3" value="ecopad" type="radio">
+           <label for="r3">Ecopads</label>
+           <input id="r4" name="produto-gaia4" value="lipbalm" type="radio">
+           <label for="r4">Lipbalm</label>
+        </div>
+        <br>
+        <div>
+           <label for="sugestoes">Caso ainda não tenha, escreva abaixo qual(is) gostaria de adquirir:</label>
+           <br>
+           <textarea id="sugestoes" name="sugestoes" placeholder="Escreva aqui"></textarea>
+        </div>
+        <input name="reset" type="reset" value="Limpar"/>
+        <input type="submit" value="Enviar" />
+         </form> 
+         <br><br><br>
+         <table style="margin: 10%; float: right;">
+            <thead>
+            <tr>
+                
+                <th><h2 class="titulo2">Curiosidades</h2></th>
+                
+            </tr>
+        </thead>
+        <br>
+        <tbody style="text-align: right;">
+            <tr>
+                <td style="text-align: center;">Em média, cada brasileira joga <b style="color: rgb(91, 208, 216)">3 kg</b> de absorvente no lixo <b style="color: rgb(91, 208, 216)">por ano</b> .Levando em conta que uma mulher tem um ciclo menstrual dos <b style="color: rgb(91, 208, 216)">11 aos 54 anos</b>, em toda a sua vida gastará mais de <b style="color: rgb(91, 208, 216)">130 quilos</b> de absorventes.</td>
+               
+            </tr>
+            <tr>
+               
+                <td style="text-align: center;">O Brasil é o <i><b style="color: rgb(91, 208, 216)">terceiro maior</b></i> consumidor de fraldas descartáveis do mundo. Só em 2014, foram <b style="color: rgb(91, 208, 216)">7,9 bilhões de fraldas descartáveis</b> vendidas no país.São quase <b style="color: rgb(91, 208, 216) ;">305 mil toneladas de lixo produzidas em um ano.</b></td>
+            </tr>
+        </tbody>
+        </table>
+         
+    </aside>
+            
+        <div id="absorventes" class="border" style="width: 50%;">
+            <h3 >Absorventes</h3>
+            <p> Os absorventes da Gaia são feitos de algodão e com diversas estampas. Tem as versões<ul> <li> <i>PREMIUM: </i> para aquelx apegada aos detalhes como escolher a estampa e o acabamento
+
+            </li>
+            <li> <i>EXPRESS: </i> para aquelx desapegadas dos detalhes como estampas;</li>
+
+            </ul>
+        </p>
+            <img src="Screenshot 2022-01-27 at 17-01-28 Gaia Sustentável ( gaia sustentavel) • Instagram photos and videos.png" alt="Foto de absorvente de tecido estampado 3 tamanhos"width="302" height="302" style="vertical-align:middle;margin:25px 25px">
+            <img src="Screenshot 2022-01-27 at 21-14-17 Gaia Sustentável ( gaia sustentavel) • Instagram photos and videos.png" alt="Foto absorventes de tecido tamanhos e preços" width="302" height="302" style="vertical-align:middle;margin:25px 25px" >
+            <br>
+           
+        </div>
+        </section>
+        <section>
+        <br>
+        <div id="fraldas" class="border" style="width: 50%;">
+            <h3 >Fraldas</h3>
+            <p >Assim como os absorventes, as fraldas são feitas de algodão, são reutilizaveis e lavavéis.</p> 
+            <img src="Screenshot 2022-01-27 at 21-11-10 Gaia Sustentável ( gaia sustentavel) • Instagram photos and videos.png" alt="Foto de bebe com fralda de tecido" width="302" height="302"style="vertical-align:middle;margin:25px 25px">
+            <img src="Screenshot 2022-01-27 at 17-05-46 Gaia Sustentável ( gaia sustentavel) • Instagram photos and videos.png" alt="Fotos de fraldas de tecidos com preços" width="302" height="302"style="vertical-align:middle;margin:25px 25px">
+            <br>
+            
+             
+        </div>
+        </section>
+        <br>
+        <section>
+        <div id="ecopads" class="border" style="width: 95%;">
+            <h3 >Ecopads</h3>
+            <p>Os EcoPads são discos de crochê que auxiliam na remoção de maquiagem ou cuidados com a pele  Ou seja migx, lavou, tá novo! <br>
+                 E quem os produz no caso é avó da Camila.</p> 
+            <img src="Screenshot 2022-01-27 at 17-02-30 Gaia Sustentável ( gaia sustentavel) • Instagram photos and videos.png" alt="Foto de Ecopad de croche" width="302" height="302"style="vertical-align:middle;margin:25px 25px">
+            <img src="Screenshot 2022-01-27 at 21-13-56 Gaia Sustentável ( gaia sustentavel) • Instagram photos and videos.png" alt="Foto de ecopad com preços" width="302" height="302"style="vertical-align:middle;margin:25px 25px">
+            <br>
+            
+             
+        </div>
+        </section>
+        <br>
+       <section>
+        <div id="lipbalm" class="border"style="width: 95%;">
+            <h3 >LipBalm</h3>
+            <p >Lip Balm Vegano Gaia. Nada melhor que ter em um único produto várias funções. São elas: <ol><li>hidratação de cutículas;</li><li>pentear e manter no lugar sobrancelhas;</li><li>intensificar a cor de sombras de olho; </li>
+            <li>hidratar muitoooo seus lábios;</li><li>e você ainda pode reutilizar o potinho depois!</li>
+        </ol> </p> 
+        <img src="Screenshot 2022-01-27 at 17-02-55 Gaia Sustentável ( gaia sustentavel) • Instagram photos and videos.png" alt="Foto de lipbalm vegano" width="302" height="302"style="vertical-align:middle;margin:25px 25px">
+        <img src="Screenshot 2022-01-27 at 21-14-40 Gaia Sustentável ( gaia sustentavel) • Instagram photos and videos.png" alt="Foto de do lipbalm com preço" width="302" height="302"style="vertical-align:middle;margin:25px 25px">
+        <br>
+        
+         
+        </div>
+    </section>
+    </article>
+    </main>
+              
+        <br>        
+    <footer class="border" >
+        <div id="news" class="titulo2" >
+            <h2>Novidades</h2>
+            
+            <span> Não perca os lançamentos de novos produtos!! Cadastre seu email abaixo para receber as novidades e mais dicas para ajudar cuidar do nosso planeta.
+                
+            </span>
+            <hr>
+            <form method="post" action="./processa-form-rh.php">
+                <div style="margin-bottom: 5px;margin-top:15px;">
+                 <label for="nome">Nome:</label>
+                 <input id="nome" name="nome" placeholder="Digite o nome completo" type="text" required>
+               </div>
+
+               <div style="margin-bottom: 5px;">
+                <label for="email">E-mail:</label>
+                <input id="email" name="email" placeholder="Digite seu email" type="text" required>
+              </div>
+              <input name="reset" type="reset" value="Limpar"/>
+              <input type="submit" value="Submit" style="margin-bottom: 5px;"/>
+            </form>
+
+            <div class="footer">
+                <a href="#topo">Voltar ao topo</a>
+            </div>    
+
+
+        </div>
+    </footer>    
+
+        
+
+
+</body>
+</html>
